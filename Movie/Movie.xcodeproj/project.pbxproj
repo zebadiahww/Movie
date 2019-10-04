@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		852487DA2347B6FF00A1E5D7 /* MovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852487D92347B6FF00A1E5D7 /* MovieTableViewController.swift */; };
+		852487DC2347B8FD00A1E5D7 /* MovieInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852487DB2347B8FD00A1E5D7 /* MovieInfoTableViewCell.swift */; };
 		8557925E234796A300E521BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8557925D234796A300E521BA /* AppDelegate.swift */; };
 		85579260234796A300E521BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8557925F234796A300E521BA /* SceneDelegate.swift */; };
-		85579262234796A300E521BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85579261234796A300E521BA /* ViewController.swift */; };
 		85579265234796A300E521BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85579263234796A300E521BA /* Main.storyboard */; };
 		85579267234796A400E521BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85579266234796A400E521BA /* Assets.xcassets */; };
 		8557926A234796A400E521BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85579268234796A400E521BA /* LaunchScreen.storyboard */; };
+		8557927923479DE000E521BA /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8557927823479DE000E521BA /* Movie.swift */; };
+		8557927B2347A00E00E521BA /* MovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8557927A2347A00E00E521BA /* MovieController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		852487D92347B6FF00A1E5D7 /* MovieTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewController.swift; sourceTree = "<group>"; };
+		852487DB2347B8FD00A1E5D7 /* MovieInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieInfoTableViewCell.swift; sourceTree = "<group>"; };
 		8557925A234796A300E521BA /* Movie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Movie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8557925D234796A300E521BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8557925F234796A300E521BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		85579261234796A300E521BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		85579264234796A300E521BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85579266234796A400E521BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85579269234796A400E521BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8557926B234796A400E521BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8557927823479DE000E521BA /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		8557927A2347A00E00E521BA /* MovieController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +66,6 @@
 				85579274234796C600E521BA /* Controllers */,
 				85579272234796B900E521BA /* Model */,
 				85579271234796B000E521BA /* Resources */,
-				85579261234796A300E521BA /* ViewController.swift */,
 			);
 			path = Movie;
 			sourceTree = "<group>";
@@ -80,6 +85,7 @@
 		85579272234796B900E521BA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8557927823479DE000E521BA /* Movie.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -97,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				85579263234796A300E521BA /* Main.storyboard */,
+				852487DB2347B8FD00A1E5D7 /* MovieInfoTableViewCell.swift */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -104,6 +111,7 @@
 		85579276234796E200E521BA /* Model Controller */ = {
 			isa = PBXGroup;
 			children = (
+				8557927A2347A00E00E521BA /* MovieController.swift */,
 			);
 			path = "Model Controller";
 			sourceTree = "<group>";
@@ -111,6 +119,7 @@
 		85579277234796E800E521BA /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
+				852487D92347B6FF00A1E5D7 /* MovieTableViewController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -186,9 +195,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85579262234796A300E521BA /* ViewController.swift in Sources */,
+				852487DA2347B6FF00A1E5D7 /* MovieTableViewController.swift in Sources */,
+				8557927B2347A00E00E521BA /* MovieController.swift in Sources */,
 				8557925E234796A300E521BA /* AppDelegate.swift in Sources */,
 				85579260234796A300E521BA /* SceneDelegate.swift in Sources */,
+				852487DC2347B8FD00A1E5D7 /* MovieInfoTableViewCell.swift in Sources */,
+				8557927923479DE000E521BA /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +346,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GQHR9QPNK6;
-				INFOPLIST_FILE = Movie/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Movie/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -352,7 +364,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GQHR9QPNK6;
-				INFOPLIST_FILE = Movie/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Movie/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
